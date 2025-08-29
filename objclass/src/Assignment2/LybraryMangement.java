@@ -39,8 +39,8 @@ public class LybraryMangement {
 
 	 class TestLibrary {
 	    public static void main(String[] args) {
-	    	LybraryMangement b1 = new LybraryMangement(101, "Java Basics", "James");
-	    	LybraryMangement b2 = new LybraryMangement(102, "Python Guide", "Guido");
+	    	LybraryMangement b1 = new LybraryMangement(101, "Java ", "nsnathan");
+	    	LybraryMangement b2 = new LybraryMangement(102, "springboot ", "raghavendra");
 
 	        b1.issueBook();
 	        b2.displayBook();

@@ -2,7 +2,7 @@ package Assignment2;
 
 public class BankAccountTest {
 	public static void main(String[] args) {
-		BankAccount[] acc = new BankAccount[2];
+		//BankAccount[] acc = new BankAccount[2];
 		BankAccount[] accounts = {new BankAccount(123,"raghu",22400),new BankAccount(456,"ram",55220)};
 		System.out.println("details");
 		for(BankAccount b:accounts) {

@@ -11,7 +11,7 @@ public class BankAccount {
 		this.balance = balance;
 	}
 	
-	//w
+
 	public void deposite(double amt) {
 		balance = balance+amt;
 		System.out.println("After deposite,bank balance is: "+balance);

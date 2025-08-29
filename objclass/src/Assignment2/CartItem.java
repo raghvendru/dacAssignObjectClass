@@ -1,6 +1,6 @@
 package Assignment2;
 
-class CartItem {
+public class CartItem {
     int itemId;
     String itemName;
     double price;
