@@ -14,7 +14,9 @@ public class CartManager {
 		for(int i=0;i<prod.length;i++) {
 			if (prod[i] != null) {
 			//System.out.println("Product details of id :"+prod[i].pId);
-			System.out.println("product id : " + prod[i].pId + " product name is : " + prod[i].pName+ " product quantity is: "+ prod[i].qty + " Product cost is : "+prod[i].price);
+			System.out.println("product id : " + prod[i].pId + " product name is : " + prod[i].pName+ " product quantity is: "+ prod[i].qty + " Product cost is : "+prod[i].price + " product count is: " +Product.pCount);
+		    System.out.println("Total products in cart: " + Product.pCount);
+
 			}
 		}
 	}
@@ -50,6 +52,7 @@ public class CartManager {
 	                prod[j] = prod[j+1];
 	            }
 	            prod[prod.length-1] = null;
+	            Product.pCount--;
 	            break;
 	        }
 	    }
