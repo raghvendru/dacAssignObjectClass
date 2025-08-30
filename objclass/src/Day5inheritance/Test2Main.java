@@ -1,4 +1,5 @@
 package Day5inheritance;
+import java.lang.Object;
 
 class Vehicle1 {
 	public void start() {
