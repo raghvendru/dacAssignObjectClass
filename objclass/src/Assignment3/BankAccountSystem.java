@@ -23,6 +23,9 @@ class SavingsAct extends BankAct{
 	}
 }
 public class BankAccountSystem {
+//	static {s
+//		System.out.println("hi mr bean");
+//	}
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		SavingsAct[] sav = new SavingsAct[2];

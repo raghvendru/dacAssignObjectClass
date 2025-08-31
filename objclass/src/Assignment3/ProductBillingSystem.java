@@ -4,6 +4,7 @@ class Product{
 	String pName;
 	double price;
 	
+	
 	public void showProduct() {
 		System.out.println("product name is : "+ pName +" price of product is:  " + price);
 	}
