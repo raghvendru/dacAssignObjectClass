@@ -32,7 +32,7 @@ public class NumberToWords {
 	}
 
 	public static void main(String[] args) {
-		int number = 122341;
+		int number = 1223491;
 		System.out.println(number + " in words: " + convert(number));
 	}
 }

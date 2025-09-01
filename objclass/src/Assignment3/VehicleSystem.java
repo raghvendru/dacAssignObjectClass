@@ -36,7 +36,7 @@ public class VehicleSystem {
 		for(int i=0;i<c.length;i++) {
 			System.out.println("enter how many litres you wanna fuel: ");
 			int n = sc.nextInt();
-			System.out.println("after refueling,ypu have prently :");
+			System.out.println("after refueling,you have prently :");
 			System.out.println(c[i].refuel(n));
 			System.out.println("Your car can travel upto :"+c[i].calculateDist()+" based on available fuel ");
 		}
