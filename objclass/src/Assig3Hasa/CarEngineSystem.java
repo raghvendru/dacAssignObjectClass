@@ -46,7 +46,6 @@ class Car {
 	        System.out.println("Car Model: " + Carmodel);
 	        System.out.println("Brand: " + brand);
 	        System.out.println("Price: " + price);
-	        System.out.println("--- Engine Details ---");
 	        System.out.println(e.eNo + e.hPower + e.fuelType);
 	      
 	}
