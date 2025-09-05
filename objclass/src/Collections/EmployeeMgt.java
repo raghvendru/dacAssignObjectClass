@@ -87,6 +87,56 @@ public class EmployeeMgt {
 	        }
 	    });
 	}
+//	public void sortById(ArrayList<Employee> al) {
+//	    al.sort(Comparator.comparingInt(e -> e.id));
+//	}
+//
+//	public void sortByName(ArrayList<Employee> al) {
+//	    al.sort(Comparator.comparing(e -> e.name));
+//	}
+//
+//	public void sortBySalary(ArrayList<Employee> al) {
+//	    al.sort(Comparator.comparingDouble(e -> e.sal));
+//	}
+	
+//	public void sortById(ArrayList<Employee> al) {
+//	    int n = al.size();
+//	    for (int i = 0; i < n - 1; i++) {
+//	        for (int j = 0; j < n - i - 1; j++) {
+//	            if (al.get(j).id > al.get(j + 1).id) {
+//	                Employee temp = al.get(j);
+//	                al.set(j, al.get(j + 1));
+//	                al.set(j + 1, temp);
+//	            }
+//	        }
+//	    }
+//	}
+//	public void sortByName(ArrayList<Employee> al) {
+//	    int n = al.size();
+//	    for (int i = 0; i < n - 1; i++) {
+//	        for (int j = 0; j < n - i - 1; j++) {
+//	            if (al.get(j).name.compareTo(al.get(j + 1).name) > 0) {
+//	                Employee temp = al.get(j);
+//	                al.set(j, al.get(j + 1));
+//	                al.set(j + 1, temp);
+//	            }
+//	        }
+//	    }
+//	}
+//	public void sortBySalary(ArrayList<Employee> al) {
+//	    int n = al.size();
+//	    for (int i = 0; i < n - 1; i++) {
+//	        for (int j = 0; j < n - i - 1; j++) {
+//	            if (al.get(j).sal > al.get(j + 1).sal) {	                
+//	                Employee temp = al.get(j);
+//	                al.set(j, al.get(j + 1));
+//	                al.set(j + 1, temp);
+//	            }
+//	        }
+//	    }
+//	}
+//
+
 
 	
 
