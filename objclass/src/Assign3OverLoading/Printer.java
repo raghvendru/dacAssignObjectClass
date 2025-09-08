@@ -1,7 +1,12 @@
 package Assign3OverLoading;
 class Printer {
- public void print(String message) {
+ public String print(String message) {
      System.out.println("Printing message" + message);
+     return message;
+ }
+ public String print(String mssage) {
+	 System.out.println("Printing message" + mssage);
+	 return mssage;
  }
 
  public void print(int number) {
