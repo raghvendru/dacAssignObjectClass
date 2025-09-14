@@ -14,7 +14,7 @@ class Vehicle{
 	String brand;
 	int maxSpeed;
 	public Vehicle(String brand, int maxSpeed) {
-		super();
+		//super();
 		this.brand = brand;
 		this.maxSpeed = maxSpeed;
 	}
